@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    border-radius: 17px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ol{
+    list-style: none;
+}
+ nav ol li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 20px;
+     font-weight: bold;
+}
+nav ol li a:hover{
+    text-decoration: none;
+     color: #fff;
+     font-size: 21px;
+     transition: 0.5s;
+     font-weight: bold;
+}
+nav ul{
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.main_banner{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.main_banner h2{
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(128, 128, 128);
+}
+.main_banner h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.main_banner a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: gold;
+    border: solid 1px #fff;
+    border-radius: 2px;
+}
+.main_banner a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px 15px;
+    background-color: rgb(255, 217, 5);
+    border: solid 1px #fff;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.serv{
+    padding: 30px 0;
+
+}
+.title{
+    text-align: center;
+    padding: 50px 0;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.title p{
+    color: rgb(85, 85, 85);
+    font-weight: 300;
+}
+.serv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;    
+}
+.img_block{
+    padding: 25px;
+    width: 70px;
+    margin: 0 auto;
+    background-color: gold;
+    border-radius: 50%;
+}
+.img_block img{
+    width: 70px;
+    height: 70px;
+}
+.serv_cont p{
+    color: #aaa;
+}
+.serv_cont{
+    margin: 0 20px;
+}
+
+/* portfolio */
+
+.port_cont{
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box img{
+    width: 440px;
+    height: 400px;
+}
+.portfolio{
+    background: whitesmoke;
+    border-radius: 17px;
+}
+.box{
+    text-align: center;
+    margin: 20px 20px;
+    background-color: white;
+}
+.about_cont{
+    width: 70%;
+    margin: 0 auto;
+}
+.abut_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abut_card div{
+    margin: 0 20px;
+}
+hr{
+    border: 1px dashed gray;
+    margin-top: 20px;
+}
+.text{
+    text-align: right;
+    width: 400px;
+}
+.circle img{
+    width: 150px;
+    border: 5px solid gainsboro;
+    border-radius: 50%;
+}
+.text2{
+    text-align: left;
+    width: 400px;
+}
+.team_cont{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
+.blcok img{
+    width: 150px;
+    border-radius: 100%;
+    border: solid 5px gainsboro;
+}
+.blcok img:hover{
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+.icon i{
+    font-size: 25px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 100%;
+}
+.icon a {
+    text-decoration: none;
+}
+.blcok{
+    text-align: center;
+}
+.part_container{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.part_container img{
+    margin: 0 50px;
+    width: 20%;
+}
+.partners{
+    background: rgb(255, 255, 255);
+    height: 100px;
+    padding: 30px;
+}
+.reg{
+    background: url(https://wallpapercave.com/wp/wp2787778.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.reg_cont{
+    width: 80%;
+    margin: 0 auto;
+}.inline{
+    display: flex;
+}
+.inline div{
+    width: 100%;
+}
+.form_inp input{
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+.feedback textarea{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+}
+.link{
+    position: relative;
+    top: 30px;
+}
+    .link a{
+        text-decoration: none;
+        position: relative;
+        top: 10px;
+        left: 40%;
+        color: #fff;
+        padding: 10px 15px;
+        background-color: gold;
+        border: solid 3px #fff;
+    }
+.link a:hover{
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+
+/* media */
+
+
+@media screen and (max-width:805px){
+    .main_banner h2{
+        font-weight: 300;
+        font-size: 34px;
+        color: rgb(128, 128, 128);
+    }
+    nav ul{
+        text-decoration: none;
+        display: none;
+        list-style: none;
+    }
+    .main_banner h1{
+        font-weight: 600;
+        font-size: 45px;
+    }
+    .main_banner{
+        text-align: center;
+        position: relative;
+        top: 100px;
+        right: 20px;
+    }
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 240px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+   
+}
+@media screen and (max-width:920px){
+    .serv_cont p{
+        color: #aaa;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:730px){
+        nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 220px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+}
+@media screen and (max-width:629px){
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 180px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+}
+@media screen and (max-width:865px){
+    .blcok img{
+        width: 130px;
+        border-radius: 100%;
+        border: solid 5px gainsboro;
+    }
+    title h1{
+        font-size: 20px;
+    }
+    .icon i{
+        font-size: 20px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.8);
+        padding: 13px;
+        margin: 0 15px;
+        border-radius: 100%;
+    }
+    header{
+        background: url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg) center / cover no-repeat;
+        width: 100%;
+        height: 90vh;
+        border-radius: 17px;
+    }
+}
+@media screen and (max-width:711px){
+    .serv_cont p{
+        font-size: 10px;
+    }
+    .serv_cont{
+        margin: 0 15px;
+    }
+    .serv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .serv_cont h1{
+        font-size: 15px;
+    }
+    header{
+        background: url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg) center / cover no-repeat;
+        width: 100%;
+        height: 80vh;
+        border-radius: 17px;
+    }
+}
+@media screen and (max-width:950px){
+    .abut_card p{
+        font-size: 11px;
+    }
+    .abut_card h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:560px){
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 160px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+   .form_inp input{
+    width: 70%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    }
+
+    .feedback textarea{
+        width: 100%;
+        height: 170px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 0;
+    }
+
+   .main_banner h1{
+    font-weight: 600;
+    font-size: 35px;
+    }
+
+    .main_banner h2{
+        font-weight: 300;
+        font-size: 29px;
+        color: rgb(128, 128, 128);
+    }
+
+    header{
+        background: url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg) center / cover no-repeat;
+        width: 100%;
+        height: 70vh;
+        border-radius: 17px;
+    }
+}
+@media screen and (max-width:510px){
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 140px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+}
+@media screen and (max-width:695px){
+    .icon i{
+        font-size: 16px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.8);
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:660px){
+    .abut_card p{
+        font-size: 7px;
+    }
+    .abut_card h2{
+        font-size: 10px;
+    }
+    .abut_card h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:736px){
+    .abut_card h1{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:520px){
+    .part_container img{
+        margin: 0 30px;
+        width: 16%;
+    }
+    .icon i{
+        font-size: 15px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.8);
+        padding: 8px;
+        margin: 0 9px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .box img{
+        width: 340px;
+        height: 300px;
+    }
+    .box{
+        text-align: center;
+        margin: 10px 10px;
+        background-color: white;
+    }
+    .serv_cont p{
+        color: #aaa;
+        font-size: 7px;
+    }
+    .serv_cont h1{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:456px){
+    .icon i{
+        font-size: 14px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.8);
+        padding: 8px;
+        margin: 0 7px;
+        border-radius: 100%;
+    }
+    .blcok img{
+        width: 100px;
+    }
+    .blcok h1{
+        font-size: 15px;
+    }
+    .blcok p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:470px){
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 100px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+   .link{
+    position: relative;
+    top: 20px;
+    right: 60px;
+    }
+    .link a{
+        text-decoration: none;
+        position: relative;
+        top: 10px;
+        left: 40%;
+        color: #fff;
+        padding: 8px 12px;
+        background-color: gold;
+        border: solid 3px #fff;
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+}   
+footer p{
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:707px){
+    footer p{
+        margin-right: 130px;
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:537px){
+    footer p{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:600px){
+    .about_cont{
+        width: 100%;
+    }
+    .part_container img{
+        height: 50px;
+    }
+}
+@media screen and (max-width:400px){
+    .main_banner h1{
+        font-weight: 600;
+        font-size: 20px;
+        }
+    
+        .main_banner h2{
+            font-weight: 300;
+            font-size: 16px;
+            color: rgb(128, 128, 128);
+        }
+        nav ol li a{
+            text-decoration: none;
+            color: #fff;
+            position: relative;
+            left: 50px;
+            top: 130px;
+            font-size: 20px;
+            font-weight: bold;
+       }
+}
+@media screen and (max-width:330px){
+    nav ol li a{
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 50px;
+        top: 130px;
+        font-size: 20px;
+        font-weight: bold;
+   }
+}
+@media screen and (max-width:500px){
+    .team_cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team_cont div{
+        margin-bottom: 20px;
+    }
+}
+
